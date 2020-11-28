@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./lib",
+    "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+    "strict": true,
+    "types": [
+      "node",
+			"mocha",
+			"chai"
+    ],
+    "lib": [
+      "es2018", "esnext.asynciterable"
+    ],
+  },
+  "include": ["src"],
+  "exclude": [
+    ".git",
+  ]
+}

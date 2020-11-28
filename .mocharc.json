@@ -1,0 +1,6 @@
+{
+  "diff": true,
+  "timeout": 10000,
+  "extension": [ "js", "ts" ],
+  "require": ["ts-node/register", "tsconfig-paths/register"]
+}
