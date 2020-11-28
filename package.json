@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "npx tsc --build tsconfig.prod.json",
+    "prepare": "npm run build",
     "test": "npx mocha **/*.spec.ts",
     "lint": "npx tslint -p ./tsconfig.json",
     "lint:fix": "npx tslint -p ./tsconfig.json --fix",
