@@ -4,6 +4,7 @@
   "version": "1.1.0",
   "description": "Wrapper over mongodb",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "npx tsc --build tsconfig.prod.json",
     "prepare": "npm run build && husky install",
